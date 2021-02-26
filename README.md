@@ -12,3 +12,7 @@
 ### Preview Deployments for Layer5 Website
 
 See [https:layer5labs.github.io/layer5](https:layer5labs.github.io/layer5)
+
+Structure of pull request previews:
+
+- https:layer5labs.github.io/layer5/<pr#>
