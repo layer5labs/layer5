@@ -8,7 +8,7 @@
 ![GitHub issues by-label](https://img.shields.io/github/issues/layer5io/layer5/help%20wanted.svg?color=%23DDDD00)
 [![Slack](http://slack.layer5.io/badge.svg)](http://slack.layer5.io)
 ![Twitter Follow](https://img.shields.io/twitter/follow/layer5.svg?label=Follow&style=social)
-
+ 
 ### About Layer5
 
 **Community First**
