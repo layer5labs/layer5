@@ -7,7 +7,7 @@
   "license": "",
   "repository": {
     "type": "git",
-    "url": "https://layer5.io"
+    "url": "https://layer5labs.github.io/layer5/"
   },
   "scripts": {
     "build": "gatsby build --prefix-paths",

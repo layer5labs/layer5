@@ -18,4 +18,4 @@ jobs:
           branch: site # The branch the action should deploy to.
           folder: public # The folder the action should deploy.
           clean: true
-          clean-exclude: preview*
+          # clean-exclude: preview*
