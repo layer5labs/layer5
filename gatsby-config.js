@@ -4,8 +4,9 @@ module.exports = {
     title: "Layer5 - The Service Mesh Company",
     description: "Making service meshes available to the rest of us. Open source software for management of service meshes. Allowing developers to focus on business logic, not infrastructure concerns. Empowering operators to confidentally run modern infrastructure.",
     author: "Layer5 Authors",
-    siteUrl: "https://layer5.io/",
+    siteUrl: "https://layer5labs.github.io/layer5/",
   },
+  pathPrefix: "layer5/",
   plugins: [
     "gatsby-plugin-sitemap",
     "gatsby-plugin-react-helmet",
@@ -22,6 +23,14 @@ module.exports = {
         pluginConfig: {
           head: false,
         },
+      },
+    },
+    {
+      resolve: "gatsby-plugin-runtime-path-prefix",
+      options: {
+        prefix: "layer5/",
+        pattern: /(preview)+/, // use /^(\/(?:ipfs|ipns)\/[^/]+)/ for IPFS
+        useBasename: true,
       },
     },
     {
