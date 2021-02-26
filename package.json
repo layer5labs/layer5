@@ -10,7 +10,7 @@
     "url": "https://layer5.io"
   },
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "clean": "gatsby clean && rimraf node_modules",
     "develop": "env-cmd -f .env.development gatsby develop",
     "dev": "npm run develop",
