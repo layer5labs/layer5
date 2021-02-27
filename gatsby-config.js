@@ -6,7 +6,7 @@ module.exports = {
     author: "Layer5 Authors",
     siteUrl: "https://layer5.io",
   },
-  pathPrefix: "/preview",
+  pathPrefix: "layer5/preview/",
   plugins: [
     "gatsby-plugin-sitemap",
     "gatsby-plugin-react-helmet",
@@ -28,7 +28,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-runtime-path-prefix",
       options: {
-        prefix: "/preview",
+        prefix: "layer5/preview/",
         pattern: /(\d+)/, // use /^(\/(?:ipfs|ipns)\/[^/]+)/ for IPFS
         useBasename: true,
       },
